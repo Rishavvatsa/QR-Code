@@ -1,0 +1,105 @@
+
+/* Importing the Outfit font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+/* Applying box-sizing: border-box to all elements */
+* {
+    box-sizing: border-box;
+}
+
+/* Setting the font-family of the body to Outfit */
+body {
+    font-family: 'Outfit', sans-serif;
+    margin-top: 8%;
+}
+
+/* Enabling smooth scrolling for the entire document */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Creating a container with a fixed width and height */
+.outer{
+    width: 1020px;
+    height:550px;
+    margin:  0 auto;
+    background-color: hsl(212, 45%, 89%);
+    max-width: 1440px;
+}
+.inner {
+    width: 200px;
+    height: auto;
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    position: relative;
+    top: 80px;
+    border-radius: 12px;
+    padding: 1rem;
+}
+.i1{
+    margin-bottom: 20px;
+}
+/* Scaling the image to fit within the container */
+.i1 img {
+     width: 100%; /* Adjusted to full width for responsiveness */
+    min-width: 180px;
+    height: auto; /* Adjusted to auto for responsiveness */
+    border-radius: 12px;
+}
+.i1 .para{
+    font-size: 15px;
+    margin: 10px 0;
+    text-align: center; 
+    color: hsl(218, 44%, 22%);
+}
+.i1 .p1{
+    font-size: 10px;
+    color:hsl(220, 15%, 55%);
+    text-align: center;
+}
+@media screen  and  (max-width: 375px){
+    .outer{
+        width: 300px;
+        height:450px;
+        margin:  0 auto;
+        background-color: hsl(212, 45%, 89%);
+        max-width: 1440px;
+    }
+    .inner {
+        width: 200px;
+        height: auto;
+        background-color: hsl(0, 0%, 100%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        position: relative;
+        top: 80px;
+        border-radius: 12px;
+        padding: 1rem;
+    }
+    .i1{
+        margin-bottom: 20px;
+    }
+    /* Scaling the image to fit within the container */
+    .i1 img {
+         width: 100%; /* Adjusted to full width for responsiveness */
+        min-width: 180px;
+        height: auto; /* Adjusted to auto for responsiveness */
+        border-radius: 12px;
+    }
+    .i1 .para{
+        font-size: 15px;
+        margin: 10px 0;
+        text-align: center; 
+        color: hsl(218, 44%, 22%);
+    }
+    .i1 .p1{
+        font-size: 10px;
+        color:hsl(220, 15%, 55%);
+        text-align: center;
+}
+}
